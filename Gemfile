@@ -37,8 +37,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
- # 下記１行はHerokuのために消去
-# gem 'bootsnap', '>= 1.1.0', require: false
+
+# 以下1行はHerokuのためにやっぱり復活
+gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
