@@ -54,10 +54,10 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-# 以下3行はHerokuのために消去＋追記
-group :production do
-  gem 'pg', '0.20.0'
-end
+# 以下3行はHerokuのために追記するか悩み中
+# group :production do
+  # gem 'pg', '0.20.0'
+# end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
